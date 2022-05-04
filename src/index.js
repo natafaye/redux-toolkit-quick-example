@@ -4,15 +4,24 @@ import { Provider } from 'react-redux';
 import { store } from './app/store';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+import { BrowserRouter } from 'react-router-dom';
+import { fetchBusinesses} from './features/businesses/businessSlice';
+import { fetchReviews } from './features/reviews/reviewSlice';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
 
+store.dispatch(fetchBusinesses())
+store.dispatch(fetchReviews())
+
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <App />
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </Provider>
   </React.StrictMode>
 );

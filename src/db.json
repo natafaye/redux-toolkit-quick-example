@@ -1,0 +1,79 @@
+{
+    "businesses": [
+      {
+        "id": 0,
+        "name": "IHOP",
+        "description": "IHOP is an American multinational pancake house restaurant chain that specializes in American breakfast foods. It is owned by Dine Brands Global—a company formed after IHOP's purchase of Applebee's, with 99% of the restaurants run by independent franchisees."
+      },
+      {
+        "id": 1,
+        "name": "Del Taco",
+        "description": "HOP is an American multinational pancake house restaurant chain that specializes in American breakfast foods. It is owned by Dine Brands Global—a company formed after IHOP's purchase of Applebee's, with 99% of the restaurants run by independent franchisees."
+      },
+      {
+        "id": 2,
+        "name": "El Pollo Loco",
+        "description": "El Pollo Loco is the name of two independent restaurant chains that specialize in Mexican-style grilled chicken. Both were founded by Juan Francisco Ochoa. He established the first El Pollo Loco restaurant in Guasave, Sinaloa, Mexico in 1974. Ochoa then expanded his chain into the United States in 1980."
+      },
+      {
+        "name": "Cafe Zupas",
+        "description": "At Café Zupas, we serve house-made and globally-inspired soups, salads, sandwiches, and desserts in our next generation kitchens.",
+        "id": 3
+      },
+      {
+        "name": "The Best Business",
+        "description": "It's the best obviously.",
+        "id": 4
+      }
+    ],
+    "reviews": [
+      {
+        "id": 0,
+        "businessId": 0,
+        "rating": 5,
+        "text": "I love how international the pancakes are"
+      },
+      {
+        "id": 0,
+        "businesseId": 1,
+        "rating": 3,
+        "text": "Lorem ipsum dolor sit amet"
+      },
+      {
+        "id": 2,
+        "businessId": 0,
+        "rating": 5,
+        "text": "I caught a world-record-breaking trout here on my last visit."
+      },
+      {
+        "id": 3,
+        "businessId": 0,
+        "rating": 5,
+        "text": "A wonderful place to reconnect with nature."
+      },
+      {
+        "id": 4,
+        "businessId": 0,
+        "rating": 4,
+        "text": "The stars at night were a revelation!"
+      },
+      {
+        "id": 5,
+        "businessId": 1,
+        "rating": 4,
+        "text": "The campground was beautiful, but the bugs could bite sometimes."
+      },
+      {
+        "id": 6,
+        "businessId": 2,
+        "rating": 5,
+        "text": "I caught a world-record-breaking trout here on my last visit."
+      },
+      {
+        "id": 7,
+        "businessId": 2,
+        "rating": 5,
+        "text": "A wonderful place to reconnect with nature."
+      }
+    ]
+  }
